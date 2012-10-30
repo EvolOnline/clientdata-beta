@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="57" height="59" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="actorsfix" value="1"/>
+  <property name="minimap" value="graphics/minimaps/000-2-1.png"/>
+  <property name="music" value="Artis indoor - In the Forest of the Birches.ogg"/>
+ </properties>
+ <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="129" name="Village-indoor2" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="Ship-indoor_x2" tilewidth="96" tileheight="32">
+  <image source="../graphics/tiles/Indoor/Ship-indoor_x2.png" width="384" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="40"/>
+    <property name="animation-delay1" value="18"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="30"/>
+    <property name="animation-delay4" value="18"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="3"/>
+    <property name="animation-frame4" value="2"/>
+    <property name="animation-frame5" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="animation-delay0" value="40"/>
+    <property name="animation-delay1" value="18"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="30"/>
+    <property name="animation-delay4" value="18"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="4"/>
+    <property name="animation-frame1" value="5"/>
+    <property name="animation-frame2" value="6"/>
+    <property name="animation-frame3" value="7"/>
+    <property name="animation-frame4" value="6"/>
+    <property name="animation-frame5" value="5"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="animation-delay0" value="30"/>
+    <property name="animation-delay1" value="18"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="40"/>
+    <property name="animation-delay4" value="18"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="8"/>
+    <property name="animation-frame1" value="9"/>
+    <property name="animation-frame2" value="10"/>
+    <property name="animation-frame3" value="11"/>
+    <property name="animation-frame4" value="10"/>
+    <property name="animation-frame5" value="9"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="animation-delay0" value="30"/>
+    <property name="animation-delay1" value="18"/>
+    <property name="animation-delay2" value="15"/>
+    <property name="animation-delay3" value="40"/>
+    <property name="animation-delay4" value="18"/>
+    <property name="animation-delay5" value="15"/>
+    <property name="animation-frame0" value="12"/>
+    <property name="animation-frame1" value="13"/>
+    <property name="animation-frame2" value="14"/>
+    <property name="animation-frame3" value="15"/>
+    <property name="animation-frame4" value="14"/>
+    <property name="animation-frame5" value="13"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="401" name="Candle" tilewidth="32" tileheight="64">
+  <image source="../graphics/tiles/Indoor/Candle.png" width="96" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="animation-delay0" value="13"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay2" value="13"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="11"/>
+    <property name="animation-frame0" value="0"/>
+    <property name="animation-frame1" value="1"/>
+    <property name="animation-frame2" value="2"/>
+    <property name="animation-frame3" value="1"/>
+    <property name="animation-frame4" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="animation-delay0" value="13"/>
+    <property name="animation-delay1" value="12"/>
+    <property name="animation-delay2" value="13"/>
+    <property name="animation-delay3" value="12"/>
+    <property name="animation-delay4" value="11"/>
+    <property name="animation-frame0" value="3"/>
+    <property name="animation-frame1" value="4"/>
+    <property name="animation-frame2" value="5"/>
+    <property name="animation-frame3" value="4"/>
+    <property name="animation-frame4" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="407" name="Box" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Box.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="423" name="Collision" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="427" name="Shadow" tilewidth="32" tileheight="32">
+  <image source="../graphics/tiles/Shadow.png" width="160" height="160"/>
+ </tileset>
+ <layer name="Ground" width="57" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WMQvCMBBGI6Ii4uJWxR/mKHbS/v/ZFBp6HonGKpyJb3iYpA73vObzTs65EwAAAAAAAAAAwJ9zzsC6xm84xFgV5riMOMTOaurjzLPwzId94zl61p6tZzPsD4U46rq1S+/QDdzEui2sj5ehbtlLvdffkWtrh9x3tUt8xpz02toh11HX30aelZo5u9njndP9q81RumqPS4WOIWMaz96NeXt1Ywb354cfcMh1lPcxli9dYl1SH5/5PcvbEhxTPu9kj7VDrqPOVuko5zo574Uza4ccR/1fqD3lrHd2Y/6EWc/a4Z0+pua4VNaEtbXDFMfQ19idDGc3cWbt8I0+vspYa4cpjrXNcp/+Dta1AQAAAAAAANTKHZ29DOCMNAAA
+  </data>
+ </layer>
+ <layer name="Ground2" width="57" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3W0QnCMBSF4VvEAap0CfFJfBO6S96zgQPoiuoyJtiSWNpatWlI+D+4tAYfziGYKAIAAAAAAAD85xQ7wAxsh3pkzvGiTTaWv26+U5qpzBRm1mZWzfp20aS/K5qnzV2J69KuWX0d7eeUOvq5q7hxolNmtPdMyZS8KniKcFLdl2/0dcutc7eLFre3VrlsnCD0wLvfcSPu7tiJO4Ptegr3R9ulu59DZ8whYJZQVOfZyun3qOS9n/YmR92+ufm0d1d5nTN7cf/3LqFDzaS9J6bu3zFgllD8jrnd/UP8+x95upm5m3nEDgIAAAAAALLwBB0hAkCMNAAA
+  </data>
+ </layer>
+ <layer name="Fringe" width="57" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3OQREAAAQAME+tVdeCO7YEiwAAAAAAPsntAADAsNoOAAAAAADAIQ1Dl99djDQAAA==
+  </data>
+ </layer>
+ <layer name="Over" width="57" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3YsQrCMBSF4Yj4AoIvIA4ODg5u6lQV1NHJ53DTl/deaGip2ERIbL3+HxwkaSn3dEhB5wAAAAAAAJDL9cP00S/PrlLNv8k1YAI6/zrivkfg+iHBLLlox23EfcfAdTp2i44VOtroeJGcWmKhoxpLJpKBZCoZlmvdt9KxDR27larjPcEzconteHb2zxz9doxcdc7MXHX+6J6VjnWLxtpix1VjbbFjEx27pR0LyV4yL3/r8Xu3wHP63tFn6V7/4/B7796DX+++PXhibe+hvrbsHzoCAAAAAPrpCXypTcKMNAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="57" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RMQrAIAxAUXv/i3jMTl1KEUQhMX2Btznkx3611gEAAAAAOMZoondb3f9p0JifRo2VGt/vo3fe3Th7g4x2THSDf9T41XBK12zjH/5RY34aazSu3iF6NwAAAKjqBuf9lNWMNAAA
+  </data>
+ </layer>
+ <objectgroup name="Object" width="57" height="59" visible="0"/>
+</map>
