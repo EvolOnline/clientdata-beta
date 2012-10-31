@@ -4,6 +4,10 @@
   <property name="actorsfix" value="1"/>
   <property name="minimap" value="graphics/minimaps/000-2-4.png"/>
   <property name="music" value="guitarz-halloween-theme.ogg"/>
+  <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
+  <property name="overlay0parallax" value="1.0"/>
+  <property name="overlay0scrollX" value="0.2"/>
+  <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" name="Ship-indoor" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Indoor/Ship-indoor.png" width="256" height="512"/>
@@ -110,42 +114,42 @@
   </tile>
  </tileset>
  <tileset firstgid="407" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Box.png" width="128" height="128"/>
+  <image source="../graphics/tiles/Box.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="423" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="427" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
- <tileset firstgid="427" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="431" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Shadow.png" width="160" height="160"/>
  </tileset>
  <layer name="Ground" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2WMQvCMBBGI6Ii4uJWxR/mKHbS/v/ZFBp6HonGKpyJb3iYpA73vObzTs65EwAAAAAAAAAAwJ9zzsC6xm84xFgV5riMOMTOaurjzLPwzId94zl61p6tZzPsD4U46rq1S+/QDdzEui2sj5ehbtlLvdffkWtrh9x3tUt8xpz02toh11HX30aelZo5u9njndP9q81RumqPS4WOIWMaz96NeXt1Ywb354cfcMh1lPcxli9dYl1SH5/5PcvbEhxTPu9kj7VDrqPOVuko5zo574Uza4ccR/1fqD3lrHd2Y/6EWc/a4Z0+pua4VNaEtbXDFMfQ19idDGc3cWbt8I0+vspYa4cpjrXNcp/+Dta1AQAAAAAAANTKHZ29DOCMNAAA
+   H4sIAAAAAAAAA+3WzWoCMRSG4QyllVJctGUWKl5JwftwKboa5w68eU8gwePHxGT84UzKt3ioZlzkteZn65zbEhERERERERERPeBvAnN4RsPmhtME5pizK/AtWtGId/EmZuI3PLduyPHz/gjzblVLHEs1tpU16nlji29YiLX4FHPxFd6vKmnEeWOLb+iDo3p9EF0ljXHN9e56DeL7PYzr59YNYxtjS+fSe1APr60bShtx/ocbjci6IeenuV5z+n9U2mndUNoYe7AT12PNjXov6UOT/7sQS3fZb/1n4h7sx1cTaCht1OsR9xQcx89YN+ToNZfqS50ZtTQOnR2pNVnrehz6nWKjvtdFjRqzbihpxDMCO/Vdb+cu+0+861k35Aydgal7XWq9WjeM+a3i2a97Ohg7qmfWDfc0Du03egzv59YN9zSOZd3w6u/Bem5ERERERERE/9UZzLxS9ow0AAA=
   </data>
  </layer>
  <layer name="Ground2" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3W0QnCMBSF4VvEAap0CfFJfBO6S96zgQPoiuoyJtiSWNpatWlI+D+4tAYfziGYKAIAAAAAAAD85xQ7wAxsh3pkzvGiTTaWv26+U5qpzBRm1mZWzfp20aS/K5qnzV2J69KuWX0d7eeUOvq5q7hxolNmtPdMyZS8KniKcFLdl2/0dcutc7eLFre3VrlsnCD0wLvfcSPu7tiJO4Ptegr3R9ulu59DZ8whYJZQVOfZyun3qOS9n/YmR92+ufm0d1d5nTN7cf/3LqFDzaS9J6bu3zFgllD8jrnd/UP8+x95upm5m3nEDgIAAAAAALLwBB0hAkCMNAAA
+   H4sIAAAAAAAAA+3XQU7DMBAFUFucgCIqzoC6Qqy5S/a5RzkCEQtDE0h6JOhlOl+1xSR1FSRCUqf/SSO38WZ+7SSuMURERERERERERDQHTz11yZZTNzCwxhpTSW2lanu4Vsjo7LR9/Vbl+w/KSN9hXs/VieQD9L+xx9mcuuZOZEtlHbHnMhlfIjkatS9T1kT6R+b8xFyKcj9ubfsacmKvXk/Q09By9VmvGzJufMaFObwrMH0vdSV156/fjNXoHyALnh3IWncyAtZXZ38YsbehZGpsOvt1LjLzc+9BrmqOQt65cf5+i62dftY+S91KrfwI6zEaHABylba9ft0zD36Dwp/5Hv18ETkbnavwLgyF7x/S+6d6npb2+HzqEsrYPW+HzDpTmHv1/z3epN5tey+fu6qnVz0fy56CvozBl9S31O4/myEiIiIiIiKii7EHoBD2qow0AAA=
   </data>
  </layer>
  <layer name="Fringe" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OQREAAAQAME+tVdeCO7YEiwAAAAAAPsntAADAsNoOAAAAAADAIQ1Dl99djDQAAA==
+   H4sIAAAAAAAAA+3OURUAEBQFMP5E0k4YRbVwn2NLsNYAAAAAgJ+MdAAAKGP39OCOlQ4Az5vpAAAAAAAUcgCN6Z6NjDQAAA==
   </data>
  </layer>
  <layer name="Over" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YsQrCMBSF4Yj4AoIvIA4ODg5u6lQV1NHJ53DTl/deaGip2ERIbL3+HxwkaSn3dEhB5wAAAAAAAJDL9cP00S/PrlLNv8k1YAI6/zrivkfg+iHBLLlox23EfcfAdTp2i44VOtroeJGcWmKhoxpLJpKBZCoZlmvdt9KxDR27larjPcEzconteHb2zxz9doxcdc7MXHX+6J6VjnWLxtpix1VjbbFjEx27pR0LyV4yL3/r8Xu3wHP63tFn6V7/4/B7796DX+++PXhibe+hvrbsHzoCAAAAAPrpCXypTcKMNAAA
+   H4sIAAAAAAAAA+2YO4oCQRCGWxYvIAgbi4GBgYGZa+QD1NDIc5jpQUy8g7vgAxGf6L2swm4sRpxR7NHp3v+DH6lyGOobpGxGKQAAAAAAAAAAAAAQF70nk0Rcnp2xNf9PXANagOevPHDdMOL7poVZ4oIdq5RlSqkVZU2Z6MheK+I+cPwsxnGjfQ7CUfZ8cNySx46yF46y54PjJHWbGeWX8uex41T/VjlduqYdElcdl8KRyVCyFC5zlC/Kt+774hgGHD+LLcdB3IO+wKOOHeX/zuH/jrS67BneO3l13T/c88VRUgzUrjpuQhzLgdpVRz7LHSmngONI76Cx2EUuOPK5bU5ZBM5ypuf6Wa5GaVAK+lPG9PoR90m6o0lJ3b7jML17z8HU9XcPbpmw5yBrn/kPjgAAAAAAAAAAkskZDKJkLYw0AAA=
   </data>
  </layer>
  <layer name="Shadow" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3DAQ0AAAwCIN8/iiWN8AKw0Uuqqqqqqqqqqqqqqqqq+hwycWGBjDQAAA==
+   H4sIAAAAAAAAA+3XMQqDUBBFUd3/YmyiMYiJycoyoO1gJcj8U5zilq98Q991AwAAAADQhFdYwpp0BS1sfB+bfklX8Alb+CYNAABcawxTeCZdwaPfv9ScdBXLSVfQwkYAAAC4kz9bLQngjDQAAA==
   </data>
  </layer>
  <layer name="Collision" width="57" height="59" visible="0">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RMQrAIAxAUXv/i3jMTl1KEUQhMX2Btznkx3611gEAAAAAOMZoondb3f9p0JifRo2VGt/vo3fe3Th7g4x2THSDf9T41XBK12zjH/5RY34aazSu3iF6NwAAAKjqBuf9lNWMNAAA
+   H4sIAAAAAAAAA+3SQQqDMBAFUHv/q3jI0kVBQqLpYJlO+gIPUbL435n9sW07AAAAAABlvU52hmjud/bjaXu136vpdTv7B9l5P+12lX10srNH5jfa08odezu4asdez9H97MyRju1zZpbZue+a4+zJ7jDbcdV+0V7VOp51Hd3Lzhrp1nY8vq/ScXb/qu7o1Syzs32rX+V5/WtHAAAA4Dc9AW7N8XGMNAAA
   </data>
  </layer>
  <objectgroup name="Object" width="57" height="59">
