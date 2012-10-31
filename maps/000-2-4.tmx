@@ -138,6 +138,11 @@
    H4sIAAAAAAAAA+3YsQrCMBSF4Yj4AoIvIA4ODg5u6lQV1NHJ53DTl/deaGip2ERIbL3+HxwkaSn3dEhB5wAAAAAAAJDL9cP00S/PrlLNv8k1YAI6/zrivkfg+iHBLLlox23EfcfAdTp2i44VOtroeJGcWmKhoxpLJpKBZCoZlmvdt9KxDR27larjPcEzconteHb2zxz9doxcdc7MXHX+6J6VjnWLxtpix1VjbbFjEx27pR0LyV4yL3/r8Xu3wHP63tFn6V7/4/B7796DX+++PXhibe+hvrbsHzoCAAAAAPrpCXypTcKMNAAA
   </data>
  </layer>
+ <layer name="Shadow" width="57" height="59">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DAQ0AAAwCIN8/iiWN8AKw0Uuqqqqqqqqqqqqqqqqq+hwycWGBjDQAAA==
+  </data>
+ </layer>
  <layer name="Collision" width="57" height="59" visible="0">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3RMQrAIAxAUXv/i3jMTl1KEUQhMX2Btznkx3611gEAAAAAOMZoondb3f9p0JifRo2VGt/vo3fe3Th7g4x2THSDf9T41XBK12zjH/5RY34aazSu3iF6NwAAAKjqBuf9lNWMNAAA

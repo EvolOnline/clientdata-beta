@@ -59,11 +59,11 @@ exemple :
     <monster id="3" name="Ratto" targetCursor="small" walkType="walk">
         <sprite>monsters/ratto.xml</sprite>
         <sprite>accessories/acc-ratto-tail.xml</sprite>
-        <sound event="hit">monsters/ratto/ratto-dying1.ogg</sound>
+        <sound event="die">monsters/ratto/ratto-dying1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hit1.ogg</sound>
         <sound event="hit">monsters/ratto/ratto-hit2.ogg</sound>
-        <sound event="hit">monsters/ratto/ratto-hurt1.ogg</sound>
-        <sound event="hit">monsters/ratto/ratto-spawn1.ogg</sound>
+        <sound event="hurt">monsters/ratto/ratto-hurt1.ogg</sound>
+        <sound event="spawn">monsters/ratto/ratto-spawn1.ogg</sound>
     </monster>
     <monster id="4" name="Croc" targetCursor="small" walkType="walk">
         <sound event="hit">monsters/croc/croc-hit1.ogg</sound>
@@ -89,4 +89,13 @@ exemple :
         <sprite>accessories/acc-blub-tentacle.xml</sprite>
         <sprite>accessories/acc-blub-tophat.xml</sprite>
     </monster> -->
+    <monster id="8" name="Pumpkish" targetCursor="medium" walkType="walkswim">
+        <sprite>monsters/pumpkin-little.xml</sprite>
+        <sound event="die">monsters/pumpkin/pumpkin-die-1.ogg</sound>
+    </monster>
+    <monster id="9" name="Cuco" targetCursor="medium" walkType="walkswim">
+        <sprite>monsters/pumpkin-big.xml</sprite>
+        <sound event="hit">monsters/pumpkin/pumpkin-hit-1.ogg</sound>
+        <sound event="die">monsters/pumpkin/pumpkin-die-1.ogg</sound>
+    </monster>
 </monsters>
