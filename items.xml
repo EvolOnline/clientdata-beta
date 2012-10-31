@@ -485,14 +485,14 @@ Colors is now seted up by itemcolors.xml.
         </replace>
     </item>
     <item id="2901"
-        image="equipment/head/pumpkin hat.png"
+        image="equipment/head/pumpkinhat.png"
         name="Pumpkin Hat"
         description="A carved pumpkin, the face will scare your ennemy off."
         effect="+2% Defense"
         type="equip-head"
         defense="3"
         weight="90">
-        <sprite>equipment/head/pumpkin helmet.xml</sprite>
+        <sprite>equipment/head/pumpkinhelmet.xml</sprite>
         <replace sprite="hair">
             <item from="-3" to="-2" />
             <item from="-5" to="-4" />
@@ -503,13 +503,13 @@ Colors is now seted up by itemcolors.xml.
         </replace>
     </item>
     <item id="2902"
-        image="equipment/head/fancy hat.png"
+        image="equipment/head/fancyhat.png"
         name="Fancy Hat"
         description="A fancy hat, what else?"
         type="equip-head"
         defense="1"
         weight="50">
-        <sprite>equipment/head/fancy hat.xml</sprite>
+        <sprite>equipment/head/fancyhat.xml</sprite>
         <replace sprite="hair">
             <item from="-3" to="-2" />
             <item from="-5" to="-4" />
