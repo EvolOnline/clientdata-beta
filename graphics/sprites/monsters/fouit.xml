@@ -4,9 +4,15 @@ Copyright (C) 2012 Evol Online -->
 <sprite>
 
     <imageset name="base"
+<<<<<<< HEAD:graphics/sprites/monsters/bat.xml
               src="graphics/sprites/monsters/bat.png|S"
               width="37"
               height="58"/>
+=======
+               src="graphics/sprites/monsters/fouit.png"
+               width="37"
+               height="58"/>
+>>>>>>> Add Fouit and Outfit separed sprites.:graphics/sprites/monsters/fouit.xml
 
     <action name="stand" imageset="base">
         <animation direction="down">
