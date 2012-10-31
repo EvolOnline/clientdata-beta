@@ -12,9 +12,9 @@
   <image source="../graphics/tiles/Indoor/Village-indoor2.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="385" name="Box" tilewidth="32" tileheight="32">
-  <image source="../graphics/tiles/Box.png" width="128" height="128"/>
+  <image source="../graphics/tiles/Box.png" width="128" height="160"/>
  </tileset>
- <tileset firstgid="401" name="Candle" tilewidth="32" tileheight="64">
+ <tileset firstgid="405" name="Candle" tilewidth="32" tileheight="64">
   <image source="../graphics/tiles/Indoor/Candle.png" width="96" height="128"/>
   <tile id="0">
    <properties>
@@ -45,10 +45,10 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="407" name="Shadow" tilewidth="32" tileheight="32">
+ <tileset firstgid="411" name="Shadow" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Shadow.png" width="160" height="160"/>
  </tileset>
- <tileset firstgid="432" name="Collision" tilewidth="32" tileheight="32">
+ <tileset firstgid="436" name="Collision" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/Collision.png" width="64" height="64"/>
  </tileset>
  <layer name="Ground" width="70" height="62">
@@ -68,17 +68,17 @@
  </layer>
  <layer name="Over" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3YO0vEQBQF4BvEP6D4qMUXgo9GLdRKV3yioIL+gLXTRlcbGxt7wR/suSRhL7MzSVZiMZPzwWE3kzXZOcRJVISIiIiIiIiIiIi64GHM0Kiu9XbQ0nFSu+aa9HJas/+jwTH2Jf1evrPq/T7Hkn4v4+5XqfTyY64JnfddFvigDHtxryMrlV4snXe/QS9VYuvlBDmrySUy6FAve8g9olNeQCaQeWTOGbuR6t5uA8e/QpaQHnIk8fSiv0PTknewhnzhTR+vj8WYNSV5Z7av2WI8RK+RdYnr+UW/o29teUKeWzqH9rIt8XSiQr0MkLeWzhHTmlLS7/v+z+eItZdD5LrBZ8+let29CPxcrL2U3fRMlpEVZ+wFmZR8rZ1BFovXrBgL3adj7EX5/t7dQDadsbpnv9R68dlBds12VS96X//MutGLi9eLn6+Xpv9n6FovrlcZrtGr5n1Mz/7jsvcsO2e7Xc5fsyWja3mK7PzcObvbRERERERERERERET0N78+sODI0EMAAA==
+   H4sIAAAAAAAAA+3Yu0rEQBgF4D+IL6B4qcUbgpdGLdRKV7yioII+wNppo6uNjY1vIPi4np8k7M/sTJKVWMzkfHDYzWRNdg5xEhUhIiIiIiIiIiKiLngYMzSqa70dtHSc1K65Jr2c1uz/aHCMfUm/l++ser/PsaTfy7j7VSq9/JhrQud9lwU+KMNe3OvISqUXS+fdb9BLldh6OUHOanKJDDrUyx5yj+iUF5AJZB6Zc8ZupLq328Dxr5AlpIccSTy96O/QtOQdrCFfeNPH62MxZk1J3pnta7YYD9FrZF3ien7R7+hbW56Q55bOob1sSzydqFAvA+StpXPEtKaU9Pu+//M5Yu3lELlu8NlzqV53LwI/F2svZTc9k2VkxRl7QSYlX2tnkMXiNSvGQvfpGHtRvr93N5BNZ6zu2S+1Xnx2kF2zXdWL3tc/s2704uL14ufrpen/GbrWi+tVhmv0qnkf07P/uOw9y87Zbpfz12zJ6FqeIjs/d87uNhERERERERERERER/c0vT0ugLdBDAAA=
   </data>
  </layer>
  <layer name="Shadow" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3Y3QrCMAyG4e3+L2BOdE6G8wf1Gs0OCiFkUGHOGt+D56ClY81HKcuauqoaAAAAAAAAAACwqKMYHKcC9raGvdiIVmzFITMXPdebZyJkt5upcZzJ5ebkknKIlIs9F6mms7iLh/IUVyeXlNVoxr/MnovcmryspiwvagzgfdNd1dUx7t2lDQXsAQCA6HSfneh+O63pzFx0ts+2/bZe03/g/aXK/S/VFrDXtdmavQz+8fvWOy/f3hMAAAAAAAAAABG8AEHDe2jQQwAA
+   H4sIAAAAAAAAA+3Y3QrCMAyG4e3+L2FOdE6G8wf1Cs0OCiFkUGHOGt+D56ClY81HKcuauqoaAAAAAAAAAACwqKMYHKcC9raGvdiIVmzFITMXPdebZyJkt5upcZzJ5ebkknKIlIs9F6mms7iLh/IUVyeXlNVoxr/MnovcmryspiwvagzgfdNd1dUx7t2lDQXsAQCA6HSfneh+O63pzFx0ts+2/bZe03/g/aXK/S/VFrDXtdmavQz+8fvWOy/f3hMAAAAAAAAAABG8ALUvcA/QQwAA
   </data>
  </layer>
- <layer name="Collision" width="70" height="62" visible="0">
+ <layer name="Collision" width="70" height="62">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TWw6DIBBAUbv/1bjD/rY4PBLRafGQnB80hrnB/bVtOwAAAAAAwEnRyj7TLyg76PPdIeoUten1WqVneT+iLuVea/ZV/snear0z+p3sGa9oc/b5P3eptZrRbcUu0Uy1vVqv7DlmNJi5smea2WNGJ/ckbrICXcbatPY+n/X6Zs+U1XHk7mWf884evZmf1iX6z9yX45zl/NHKPvOd96U2vy7PnB8AAAAAAK70Bm7BSVPQQwAA
+   H4sIAAAAAAAAA+3TWw6DIBBAUbv/9bi//rY4PBLRafGQnB80hrnB/bVtOwAAAAAAwEnRyj7TLyg76PPdIeoUten1WqVneT+iLuVea/ZV/snear0z+p3sGa9oc/b5P3eptZrRbcUu0Uy1vVqv7DlmNJi5smea2WNGJ/ckbrICXcbatPY+n/X6Zs+U1XHk7mWf884evZmf1iX6z9yX45zl/NHKPvOd96U2vy7PnB8AAAAAAK70Bip4Q3LQQwAA
   </data>
  </layer>
  <objectgroup name="Object" width="70" height="62">
@@ -92,6 +92,54 @@
   <object name="ToLevel2" type="warp" x="736" y="992" width="32" height="32">
    <properties>
     <property name="dest_map" value="000-2-2"/>
+   </properties>
+  </object>
+  <object name="Fouit" type="spawn" x="800" y="704" width="256" height="192">
+   <properties>
+    <property name="eA_death" value="14000"/>
+    <property name="eA_spawn" value="18000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1012"/>
+   </properties>
+  </object>
+  <object name="Oufti" type="spawn" x="1088" y="800" width="224" height="128">
+   <properties>
+    <property name="eA_death" value="14000"/>
+    <property name="eA_spawn" value="18000"/>
+    <property name="max_beings" value="2"/>
+    <property name="monster_id" value="1013"/>
+   </properties>
+  </object>
+  <object name="Oufti" type="spawn" x="768" y="960" width="288" height="160">
+   <properties>
+    <property name="eA_death" value="14000"/>
+    <property name="eA_spawn" value="18000"/>
+    <property name="max_beings" value="5"/>
+    <property name="monster_id" value="1013"/>
+   </properties>
+  </object>
+  <object name="Fouit" type="spawn" x="1088" y="960" width="224" height="352">
+   <properties>
+    <property name="eA_death" value="14000"/>
+    <property name="eA_spawn" value="18000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1012"/>
+   </properties>
+  </object>
+  <object name="Oufti" type="spawn" x="1344" y="800" width="224" height="480">
+   <properties>
+    <property name="eA_death" value="14000"/>
+    <property name="eA_spawn" value="18000"/>
+    <property name="max_beings" value="4"/>
+    <property name="monster_id" value="1013"/>
+   </properties>
+  </object>
+  <object name="Fouit" type="spawn" x="1344" y="800" width="224" height="480">
+   <properties>
+    <property name="eA_death" value="14000"/>
+    <property name="eA_spawn" value="18000"/>
+    <property name="max_beings" value="3"/>
+    <property name="monster_id" value="1012"/>
    </properties>
   </object>
  </objectgroup>
