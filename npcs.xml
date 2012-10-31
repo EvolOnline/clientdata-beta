@@ -69,6 +69,10 @@ IDs 990-999 = Special
 
 
 <!-- Special NPCs -->
+    <npc id="997">
+        <!-- Mysterious pumpkin man, Halloween 2012. -->
+        <sprite>npcs/XML1/bachus.xml</sprite>
+    </npc>
     <npc id="998">
         <!-- Alige hidding in a barrel, Halloween 2012. -->
         <sprite>npcs/XML1/alige-barrel.xml</sprite>
