@@ -1,0 +1,147 @@
+Evol client data validator.
+Run at: 2012-10-31T18:27:29.437918
+http://www.gitorious.org/evol/evol-tools/blobs/master/testxml/testxml.py
+--------------------------------------------------------------------------------
+Detecting clientdata dir
+Detected client data directory in: .
+Checking xml file syntax
+warn: execute flag on file: /home/reid/clientdata-beta/sfx/weapons/swords/sabre-hit1.ogg
+warn: execute flag on file: /home/reid/clientdata-beta/sfx/weapons/swords/firesword-miss1.ogg
+warn: execute flag on file: /home/reid/clientdata-beta/sfx/weapons/knives/sharpknife-miss1.ogg
+error: /home/reid/clientdata-beta/monsters.xml~, line=102, char=1
+error: /home/reid/clientdata-beta/graphics/sprites/monsters/fouit.xml~, line=7, char=0
+error: /home/reid/clientdata-beta/items.xml~, line=263, char=8
+Checking default files
+warn: parameter newQuestSfx in paths.xml is incorrect
+warn: parameter completeQuestSfx in paths.xml is incorrect
+Checking itemcolors.xml
+Checking items.xml
+error: id=516, file not found: generic/pumpkinseed.png (graphics/items/generic/pumpkinseed.png)
+error: id=2901, file not found: equipment/head/pumpkin hat.png (graphics/items/equipment/head/pumpkin hat.png)
+error: sprite=graphics/sprites/equipment/weapons/dagger.xml no attack action 'attack' in sprite
+Checking monsters.xml
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: down
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: downright
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: right
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: upright
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: up
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: upleft
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: left
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml last attack tag should be <end/> or attack animation can be infinite. direction: downleft
+warn: sprite=graphics/sprites/accessories/acc-ratto-tail.xml unused frames: 11,15,19,23,27
+error: sprite=graphics/sprites/monsters/croc.xml using incorrect imageset name in action: dead
+error: sprite=graphics/sprites/monsters/croc.xml incorrect frame index 7 action: dead, direction: down
+error: sprite=graphics/sprites/monsters/croc.xml incorrect frame index 15 action: dead, direction: up
+error: sprite=graphics/sprites/monsters/croc.xml incorrect frame index 23 action: dead, direction: right
+error: sprite=graphics/sprites/monsters/croc.xml incorrect frame index 31 action: dead, direction: left
+warn: sprite=graphics/sprites/monsters/fouit.xml unused frames: 0,10,20,30
+warn: sprite=graphics/sprites/monsters/oufti.xml unused frames: 0,10,20,30
+Checking npcs.xml
+error: sprite=graphics/sprites/npcs/XML1/piousrocket.xml no down direction in animation: stand
+error: sprite=graphics/sprites/npcs/XML1/piousrocket.xml no right direction in animation: stand
+Checking maps
+error: file=maps/000-2-0.tmx overlaping tilesets gids "Box" and "Collision"
+error: file=maps/000-2-0.tmx overlaping tilesets gids "Collision" and "Box"
+warn: file=maps/000-2-0.tmx incorrect tileset index in collision layer ((0, 34), 17), ((0, 7), 17), ((0, 24), 17), ((0, 29), 17), ((0, 21), 17), ((0, 1), 17), ((0, 13), 17), ((0, 46), 17), ((0, 35), 17), ((0, 25), 17), ((0, 47), 17), ((0, 12), 17), ((0, 49), 17), ((0, 2), 17), ((0, 30), 17), ((0, 36), 17), ((0, 26), 17), ((0, 31), 17), ((0, 48), 17), ((0, 50), 17), ((0, 23), 17), ((0, 40), 17), ((0, 14), 17), ((0, 3), 17), ((0, 15), 17), ((0, 32), 17), ((0, 37), 17), ((0, 38), 17), ((0, 17), 17), ((0, 51), 17), ((0, 4), 17), ((0, 41), 17), ((0, 16), 17), ((0, 22), 17), ((0, 43), 17), ((0, 28), 17), ((0, 18), 17), ((0, 8), 17), ((0, 52), 17), ((0, 42), 17), ((0, 0), 17), ((0, 5), 17), ((0, 6), 17), ((0, 27), 17), ((0, 39), 17), ((0, 19), 17), ((0, 9), 17), ((0, 11), 17), ((0, 33), 17), ((0, 45), 17), ((0, 20), 17), ((0, 10), 17), ((0, 44), 17)
+error: file=maps/000-2-3.tmx overlaping tilesets gids "Box" and "Ship-indoor_x2"
+error: file=maps/000-2-3.tmx overlaping tilesets gids "Ship-indoor_x2" and "Box"
+error: file=maps/000-2-1.tmx overlaping tilesets gids "Collision" and "Box"
+error: file=maps/000-2-1.tmx overlaping tilesets gids "Box" and "Collision"
+error: file=maps/000-0-0.tmx overlaping tilesets gids "Box" and "Collision"
+error: file=maps/000-0-0.tmx overlaping tilesets gids "Collision" and "Box"
+warn: file=maps/000-0-0.tmx incorrect tileset index in collision layer ((0, 34), 17), ((0, 7), 17), ((0, 24), 17), ((0, 29), 17), ((0, 21), 17), ((0, 1), 17), ((0, 13), 17), ((0, 35), 17), ((0, 25), 17), ((0, 12), 17), ((0, 2), 17), ((0, 30), 17), ((0, 36), 17), ((0, 26), 17), ((0, 31), 17), ((0, 23), 17), ((0, 40), 17), ((0, 14), 17), ((0, 3), 17), ((0, 15), 17), ((0, 32), 17), ((0, 37), 17), ((0, 38), 17), ((0, 17), 17), ((0, 4), 17), ((0, 41), 17), ((0, 16), 17), ((0, 22), 17), ((0, 43), 17), ((0, 28), 17), ((0, 18), 17), ((0, 8), 17), ((0, 42), 17), ((0, 0), 17), ((0, 5), 17), ((0, 6), 17), ((0, 27), 17), ((0, 39), 17), ((0, 19), 17), ((0, 9), 17), ((0, 11), 17), ((0, 33), 17), ((0, 20), 17), ((0, 10), 17)
+error: file=maps/000-2-4.tmx overlaping tilesets gids "Collision" and "Box"
+error: file=maps/000-2-4.tmx overlaping tilesets gids "Box" and "Collision"
+Checking minimaps
+Checking images dir
+Checking icons dir
+Checking sprites dir
+warn: sprite=graphics/sprites/equipment/weapons/death scyth.xml unused frames: 13,14,15,28,29,30,31,44,45,46,47
+warn: sprite=graphics/sprites/equipment/weapons/staff.xml unused frames: 13,14,15,28,29,30,31,44,45,46,47
+warn: sprite=graphics/sprites/equipment/weapons/scythe.xml unused frames: 13,14,15,28,29,30,31,44,45,46,47
+error: sprite=graphics/sprites/equipment/weapons/whip.xml using incorrect imageset name in action: default
+error: sprite=graphics/sprites/equipment/weapons/whip.xml using incorrect imageset name in action: attack_stab
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect start sequence index 0 action: attack_stab, direction: down
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect end sequence index 3 action: attack_stab, direction: down
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect start sequence index 4 action: attack_stab, direction: left
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect end sequence index 7 action: attack_stab, direction: left
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect start sequence index 8 action: attack_stab, direction: up
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect end sequence index 11 action: attack_stab, direction: up
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect start sequence index 12 action: attack_stab, direction: right
+error: sprite=graphics/sprites/equipment/weapons/whip.xml incorrect end sequence index 15 action: attack_stab, direction: right
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ image file not exist: graphics/sprites/equipment/head/fancyhat.png
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ using incorrect imageset name in action: stand
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 0 action: stand, direction: down
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 1 action: stand, direction: left
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 2 action: stand, direction: up
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 3 action: stand, direction: right
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ using incorrect imageset name in action: walk
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 0 action: walk, direction: down
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 1 action: walk, direction: left
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 2 action: walk, direction: up
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 3 action: walk, direction: right
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ using incorrect imageset name in action: attack
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 0 action: attack, direction: down
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 1 action: attack, direction: left
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 2 action: attack, direction: up
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 3 action: attack, direction: right
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ using incorrect imageset name in action: attack_bow
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 0 action: attack_bow, direction: down
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 1 action: attack_bow, direction: left
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 2 action: attack_bow, direction: up
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 3 action: attack_bow, direction: right
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ using incorrect imageset name in action: sit
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 0 action: sit, direction: down
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 1 action: sit, direction: left
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 2 action: sit, direction: up
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 3 action: sit, direction: right
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ using incorrect imageset name in action: dead
+error: sprite=graphics/sprites/equipment/head/fancy hat.xml~ incorrect frame index 4 action: dead, direction: default
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ image file not exist: graphics/sprites/equipment/head/pumpkinhelmet.png
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ using incorrect imageset name in action: stand
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 0 action: stand, direction: down
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 1 action: stand, direction: left
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 2 action: stand, direction: up
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 3 action: stand, direction: right
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ using incorrect imageset name in action: walk
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 0 action: walk, direction: down
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 1 action: walk, direction: left
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 2 action: walk, direction: up
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 3 action: walk, direction: right
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ using incorrect imageset name in action: attack
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 0 action: attack, direction: down
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 1 action: attack, direction: left
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 2 action: attack, direction: up
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 3 action: attack, direction: right
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ using incorrect imageset name in action: attack_bow
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 0 action: attack_bow, direction: down
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 1 action: attack_bow, direction: left
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 2 action: attack_bow, direction: up
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 3 action: attack_bow, direction: right
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ using incorrect imageset name in action: sit
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 0 action: sit, direction: down
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 1 action: sit, direction: left
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 2 action: sit, direction: up
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 3 action: sit, direction: right
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ using incorrect imageset name in action: dead
+error: sprite=graphics/sprites/equipment/head/pumpkin helmet.xml~ incorrect frame index 4 action: dead, direction: default
+error: sprite=graphics/sprites/equipment/chest/shirt-female.xml~ include file not exists races/human-male.xml
+error: sprite=graphics/sprites/equipment/chest/shirt-male.xml~ include file not exists races/human-male.xml
+error: sprite=graphics/sprites/equipment/leg/shorts-female.xml~ include file not exists races/human-male.xml
+error: sprite=graphics/sprites/npcs/xml/gugli.xml~ image file not exist: graphics/sprites/npcs/sprite/unanimated.png
+error: sprite=graphics/sprites/npcs/xml/gugli.xml~ using incorrect imageset name in action: stand
+error: sprite=graphics/sprites/npcs/xml/gugli.xml~ incorrect frame index 1 action: stand, direction: default
+warn: sprite=graphics/sprites/npcs/xml/gugli.xml~ unused frames: 0
+error: sprite=graphics/sprites/npcs/xml/darlin.xml~ image file not exist: graphics/sprites/npcs/sprite/unanimated.png
+error: sprite=graphics/sprites/npcs/xml/darlin.xml~ using incorrect imageset name in action: stand
+error: sprite=graphics/sprites/npcs/xml/darlin.xml~ incorrect frame index 1 action: stand, direction: default
+warn: sprite=graphics/sprites/npcs/xml/darlin.xml~ unused frames: 0
+error: sprite=graphics/sprites/monsters/oufti.xml~ dye mark incorrect size: graphics/sprites/monsters/fouit.png|S:#201619,3a2626,3d2e37,4b3126,553645,624632,5b4746,af6b3b,948573,de8f40,c9c7c7,efce8e
+warn: sprite=graphics/sprites/monsters/oufti.xml~ unused frames: 0,10,20,30
+Checking particles dir
+Checking sfx dir
+Checking music dir
+--------------------------------------------------------------------------------
+Total:
+ Warnings: 21
+ Errors:   99

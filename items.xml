@@ -253,7 +253,14 @@ Colors is now seted up by itemcolors.xml.
         effect="+15 HP, Headache"
         type="usable"
         weight="2"/>
-
+<!-- Beta2 items here-->
+        <item id="516"
+        image="generic/use/pumpkinseed.png"
+        name="Pumpkin Seeds"
+        description="Doesn't seems very appetizing..."
+        effect="+1 HP, Headache"
+        type="usable"
+        weight="1"/>
 
     <!-- Generic -->
     <item id="700"
@@ -316,6 +323,36 @@ Colors is now seted up by itemcolors.xml.
         description="A tongue from a Tortugas."
         type="generic"
         weight="5"/>
+<!-- Beta2 items here-->
+    <item id="719"
+        image="generic/fouit-wing.png"
+        name="Fouit's wing"
+        description="This wing is slight and soft, inversly from his former owner."
+        type="generic"
+        weight="6"
+        maxFloorOffset="17"/>
+    <item id="720"
+        image="generic/fouit-teeth.png"
+        name="Bat's teeth"
+        description="What sharp teeth! it's more dangerous than a knife."
+        type="generic"
+        weight="10"
+        maxFloorOffset="16"/>
+    <item id="721"
+        image="generic/fouit-wing.png|S:#3d2e37,4b3126,5b4746,af6b3b,948573,de8f40"
+        name="Oufti's wing"
+        description="This wing is slight and soft, inversly from his former owner."
+        type="generic"
+        weight="6"
+        maxFloorOffset="17"/>
+    <item id="722"
+        image="generic/pumpkin.png"
+        name="Pumpkin"
+        description="A pumpkin that can be carved for Hallowe'en."
+        type="generic"
+        weight="100"
+        maxFloorOffset="10"/>
+
 
 
     <!-- Necklace 
@@ -447,7 +484,41 @@ Colors is now seted up by itemcolors.xml.
             <item from="-15" to="-13" />
         </replace>
     </item>
-
+    <item id="2901"
+        image="equipment/head/pumpkin hat.png"
+        name="Pumpkin Hat"
+        description="A carved pumpkin, the face will scare your ennemy off."
+        effect="+2% Defense"
+        type="equip-head"
+        defense="3"
+        weight="90">
+        <sprite>equipment/head/pumpkin helmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-3" to="-2" />
+            <item from="-5" to="-4" />
+            <item from="-6" to="-7" />
+            <item from="-13" to="-1" />
+            <item from="-14" to="-13" />
+            <item from="-15" to="-13" />
+        </replace>
+    </item>
+    <item id="2902"
+        image="equipment/head/fancy hat.png"
+        name="Fancy Hat"
+        description="A fancy hat, what else?"
+        type="equip-head"
+        defense="1"
+        weight="50">
+        <sprite>equipment/head/fancy hat.xml</sprite>
+        <replace sprite="hair">
+            <item from="-3" to="-2" />
+            <item from="-5" to="-4" />
+            <item from="-6" to="-7" />
+            <item from="-13" to="-1" />
+            <item from="-14" to="-13" />
+            <item from="-15" to="-13" />
+        </replace>
+    </item>
 
     <!-- Neck
     <item id="3200"
