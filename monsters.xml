@@ -89,13 +89,19 @@ exemple :
         <sprite>accessories/acc-blub-tentacle.xml</sprite>
         <sprite>accessories/acc-blub-tophat.xml</sprite>
     </monster> -->
-    <monster id="8" name="Pumpkish" targetCursor="medium" walkType="walkswim">
+    <monster id="8" name="Pumpkish" targetCursor="medium" walkType="walk">
         <sprite>monsters/pumpkin-little.xml</sprite>
         <sound event="die">monsters/pumpkin/pumpkin-die-1.ogg</sound>
     </monster>
-    <monster id="9" name="Cuco" targetCursor="medium" walkType="walkswim">
+    <monster id="9" name="Cuco" targetCursor="medium" walkType="walk">
         <sprite>monsters/pumpkin-big.xml</sprite>
         <sound event="hit">monsters/pumpkin/pumpkin-hit-1.ogg</sound>
         <sound event="die">monsters/pumpkin/pumpkin-die-1.ogg</sound>
+    </monster>
+    <monster id="10" name="Fouit" targetCursor="small" walkType="fly">
+        <sprite>monsters/bat.xml</sprite>
+    </monster>
+    <monster id="11" name="Oufti" targetCursor="small" walkType="fly">
+        <sprite>monsters/bat.xml|#3a2626,201619,4b3126,3d2e37,624632,553645,af6b3b,5b4746,de8f40,948573,efce8e,c9c7c7</sprite>
     </monster>
 </monsters>
