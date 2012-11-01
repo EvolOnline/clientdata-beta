@@ -134,7 +134,7 @@
  </layer>
  <layer name="Fringe" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3OURUAEBQFMP5E0k4YRbVwn2NLsNYAAAAAgJ+MdAAAKGP39OCOlQ4Az5vpAAAAAAAUcgCN6Z6NjDQAAA==
+   H4sIAAAAAAAAA+3OsRGAIBAAQcwoxZDQ7iiGRi3hAxwfZTe77EoBAAAAAHZSswcAgGWMI/vgHT17APi8K3sAJpxB/0ELGgAAAHjWDd7c3tqMNAAA
   </data>
  </layer>
  <layer name="Over" width="57" height="59">
@@ -144,7 +144,7 @@
  </layer>
  <layer name="Shadow" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3XMQqDUBBFUd3/YmyiMYiJycoyoO1gJcj8U5zilq98Q991AwAAAADQhFdYwpp0BS1sfB+bfklX8Alb+CYNAABcawxTeCZdwaPfv9ScdBXLSVfQwkYAAAC4kz9bLQngjDQAAA==
+   H4sIAAAAAAAAA+3XKQ6AUBBEQbj/YTCsIawnYxKQjMR8SpR4smU3dVU1AAAAAMAvTGEOS9Il+MPG9dl0Jl2CLezhSBoAAPhWF/owJF2Ctr6/1Jg0AAAAAO8uzfLYH4w0AAA=
   </data>
  </layer>
  <layer name="Collision" width="57" height="59" visible="0">
