@@ -339,7 +339,7 @@ Colors is now seted up by itemcolors.xml.
         weight="10"
         maxFloorOffset="16"/>
     <item id="721"
-        image="generic/fouit-wing.png|S:#3d2e37,4b3126,5b4746,af6b3b,948573,de8f40"
+        image="generic/oufti-wing.png"
         name="Oufti's wing"
         description="This wing is slight and soft, inversly from his former owner."
         type="generic"
