@@ -147,9 +147,9 @@
    H4sIAAAAAAAAA+3XKQ6AUBBEQbj/YTCsIawnYxKQjMR8SpR4smU3dVU1AAAAAMAvTGEOS9Il+MPG9dl0Jl2CLezhSBoAAPhWF/owJF2Ctr6/1Jg0AAAAAO8uzfLYH4w0AAA=
   </data>
  </layer>
- <layer name="Collision" width="57" height="59" visible="0">
+ <layer name="Collision" width="57" height="59">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SQQqDMBAFUHv/q3jI0kVBQqLpYJlO+gIPUbL435n9sW07AAAAAABlvU52hmjud/bjaXu136vpdTv7B9l5P+12lX10srNH5jfa08odezu4asdez9H97MyRju1zZpbZue+a4+zJ7jDbcdV+0V7VOp51Hd3Lzhrp1nY8vq/ScXb/qu7o1Syzs32rX+V5/WtHAAAA4Dc9AW7N8XGMNAAA
+   H4sIAAAAAAAAA+3SSwrDMAxAweT+V8khSxaFYPyroahyxzCEhiz0Kl/ncVwAAAAAAKR1n+gZVud+z/48ZVf5PptaW+8/iJ7307bR7K0TPfvK/lr3NHNj7Q7u2ljrbH0fPfNKY/kc7TJba2+Psye6YbZx177VrmyNvdbWd9GzrrSVjc/fuzTO3r+sd3S0y+jZvtWXeV//2ggAAAD8phcm7fuXjDQAAA==
   </data>
  </layer>
  <objectgroup name="Object" width="57" height="59">
